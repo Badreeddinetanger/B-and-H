@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.navbar img{
+    object-fit: cover;
+    padding-left: 60px;
+}
+nav , li{
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-right: 80px;
+    list-style-type: none;
+    font-size: 17px;
+    
+}
+/*navbar---------------*/
+
+.content{
+   
+    padding-bottom: 50px;
+}
+.content h2{
+    padding-left: 40%;
+}
+.content p{
+    padding-left: 20%;
+    font-size: 20px;
+    color: rgb(193, 191, 187);
+}
+
+.contactall{
+    display: flex;
+    justify-content: center;
+    
+}
+.contacte-info{
+    padding-right: 200px;
+}
+.text{
+    padding-bottom: 20px;
+}
+.text p{
+    color: rgb(193, 191, 187);
+    font-size: 18px;
+}
+.contactForm{
+    
+    padding: 40PX;
+    background: #fff;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+}
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+}
+.contactForm .inputBox input:focus ~span {
+    color: #e91e63;
+    font-size: 16px;
+    transform: translate(-20px);
+}
+.contactForm .inputBox textarea:focus ~span{
+    color: #e91e63;
+    font-size: 16px;
+    transform: translate(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    color: #fff;
+    background: #00bcd4;
+    border: none;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    color:#00bcd4;
+}
+/* Style de base pour le footer */
+footer {
+    background-color: #f2f2f2; /* Couleur de fond du footer */
+    padding: 20px; /* Marge intérieure pour l'espacement */
+    text-align: center; /* Alignement du texte au centre */
+    padding-top: 15px 0;
+}
+
+/* Style de la ligne colorée en noir */
+footer::before {
+    content: ""; /* Ajoute un élément vide avant le contenu du footer */
+    display: block; /* Affiche l'élément en tant que bloc */
+    height: 3px; /* Hauteur de la ligne */
+    background-color: #000; /* Couleur de la ligne (noir) */
+    margin-bottom: 5px; /* Espacement en dessous de la ligne */
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+}
+.social{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+.social a{
+    margin: 0 7px ;
+}
+#nom{
+    font-size: 15px;
+}
